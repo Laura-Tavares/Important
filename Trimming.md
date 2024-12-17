@@ -15,7 +15,7 @@ There are different tools available to do the trimming process, such as Trimmoma
 #### Example of use:
 Here is going to be used **Trim galore** (a wrapper around Cutadapt and FastQC to consistently apply adapter and quality trimming to FastQ files).
 
-That are plenty of params that can be used (that are described on the doccumentation).
+That are plenty of params that can be used (that are described on the documentation).
 
 When using *small-RNA sequencing data*, for example, maybe it is interesting to look at reads that have a certain lenght. Here it is being used *-- lenght* to determine the minimum size and *--max_lenght* for the maximum size.
 
