@@ -7,6 +7,8 @@ The process of cleaning and processing data in order to remove low-quality reads
 ### > Why is it important?
 During the sequencing process, artificially generated *adapter sequences* are added to the ends of the reads. These sequences are used to attach the RNA molecules to the sequencing platform but do not map to regions in the genome. However, if not removed, these adapter sequences can interfere with downstream analysis and lead to inaccurate results. Trimming these sequences from the reads can help to improve the quality of the data.
 
+![image](https://sequencing.qcfail.com/wp-content/uploads/sites/2/2016/02/read_through_adapter.png)
+
 Besides, sequencing data may contain low-quality reads that are caused by sequencing errors, PCR bias, or other factors such as poor sample quality. These reads can also interfere with downstream analysis and lead to inaccurate results. By removing these low-quality reads, researchers can ensure that the data they are analyzing is of high quality and can be used to generate accurate and reliable results.
 
 ### > How to do it?
